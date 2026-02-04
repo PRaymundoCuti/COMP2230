@@ -1,0 +1,11 @@
+.imagen{
+    width: 15%;
+}
+*{
+    font-family:arial;
+}
+.two-columns div{
+    display: flex;
+    flex: auto;
+}
+
