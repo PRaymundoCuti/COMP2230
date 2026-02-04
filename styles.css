@@ -1,11 +1,48 @@
+header{
+    text-align: center;
+    background-color: rgba(175, 51, 72);
+}
 .imagen{
     width: 15%;
+    max-width: 300px;
+}
+.two-columns{
+    display: flex;
+    padding: .5rem; 
+    section{
+        padding-left: 1rem;
+    }
+}
+.L-column{
+    flex-direction: column;
+}
+.R-column{
+    flex-direction: column;
 }
 *{
-    font-family:arial;
+    font-family: Arial;
+
 }
-.two-columns div{
-    display: flex;
-    flex: auto;
+h1,h2,h3{
+    border-bottom: 2px solid grey;
+}
+footer{
+    margin: 2rem;
+    text-align: center;
+}
+main{
+    margin: 2rem;
+    div{
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+	.two-columns{
+    display: block;
+    }
+    .L-column{
+    }
+    .R-column{
+    }
 }
 
